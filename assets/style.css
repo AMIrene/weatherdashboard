@@ -1,0 +1,29 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    
+
+   
+}
+
+.navbar {
+    
+    background-color: #4C5760;
+    
+    border-radius: 0;
+   
+  }
+    
+.navbar-item {
+    color: white;
+    text-align: center;
+}
+
+.forecast-box {
+    background-color: #99BDC0;
+}
+
+.hide {
+    display: none;
+}
