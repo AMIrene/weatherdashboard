@@ -55,25 +55,17 @@ let weather = {
 
 
     },
-};
-// let uvInfo = {
-// fetchUV: function () {
-//     fetch (
-//         "https://api.openweathermap.org/data/2.5/uvi?lat=" 
-//         + data.coord.lat + "&lon=" 
-//         + data.coord.lat + 
-//         "&appid=" + 
-//         apiKey
-
-//         ).then((response) => response.json())
-//         .then((data) => this.displayUV(data));
-//     },
-//     displayUV: function (data) {
-//         const { uvi } = data.current;
-//         console.log (uvi)
     
+};
 
-
+let UVinfo = {
+    "apiKey": "f899a5fad6288f546bec1ed402c6fa37",
+    fetchUV: function (city) {
+        fetch(
+            
+        )
+    }
+}
 
 
 
