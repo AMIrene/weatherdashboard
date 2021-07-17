@@ -148,6 +148,7 @@ const searchCity = document.querySelector(".search-btn");
 const cityInput = document.getElementById('city-input');
 const SearchList = document.querySelector(".searchHistory");
 const currentWeatherContainer = document.querySelector(".current-box");
+const searchContainer = document.querySelector(".searchHistoryContainer");
 
 cityInput.addEventListener('change', function (event) {
     event.preventDefault();
@@ -166,7 +167,6 @@ cityInput.addEventListener('change', function (event) {
     });
     //save user city search inputs in local storage
 
-
     const CityEntry = {
         'cityInput': cityInput.value,
 
@@ -176,15 +176,16 @@ cityInput.addEventListener('change', function (event) {
     const newCitiesSearched = JSON.parse(localStorage.getItem('newCities'))
     if (newCitiesSearched) {
         CitiesSearched = CitiesSearched.concat(newCitiesSearched);
+        searchContainer.classList.remove('hide');
     }
+
     CitiesSearched.push(CityEntry);
     localStorage.setItem('newCities', JSON.stringify(CitiesSearched));
+
+    //Display searched cities
 })
-//Display searched cities
 
-
-
-
+   
 
 
 
