@@ -27,3 +27,15 @@
 .hide {
     display: none;
 }
+
+.low-risk{
+    background: green;
+}
+
+.medium-risk{
+    background: orange;
+}
+
+.high-risk{
+    background: red;
+}
