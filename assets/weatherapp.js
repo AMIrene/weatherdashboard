@@ -139,9 +139,6 @@ let weather = {
 
 };
 
-
-
-
 //search function
 const searchCity = document.querySelector(".search-btn");
 const cityInput = document.getElementById('city-input');
@@ -176,13 +173,12 @@ cityInput.addEventListener('change', function (event) {
     if (newCitiesSearched) {
         CitiesSearched = CitiesSearched.concat(newCitiesSearched);
         searchContainer.classList.remove('hide');
-    
+
     }
 
     CitiesSearched.push(CityEntry);
     localStorage.setItem('newCities', JSON.stringify(CitiesSearched));
 
-    //Display searched cities
 
 
 })

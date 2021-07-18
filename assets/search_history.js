@@ -17,8 +17,9 @@ if (newCitiesSearched) {
     for (let i = 0; i < newCitiesSearched.length; i++) {
 
         let createList = document.createElement("li");
-        // createList.setAttribute("class", "button");
+        createList.setAttribute("class", "has-text-centered");
         createList.textContent = newCitiesSearched[i].cityInput;
         CitySearchList.appendChild(createList);
     }
 }
+

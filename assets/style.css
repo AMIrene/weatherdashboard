@@ -45,3 +45,9 @@
     padding: 5px;
     border-radius: 5px;
 }
+
+li {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2b6777;
+}
