@@ -32,5 +32,5 @@ THEN I am again presented with current and future conditions for that city
 ![Screenshot of the weather app](./assets/screencapture-file-C-weatherappv2-index-html-2021-07-18-20_56_46.png)
 
 ## Deployed link 
-(https://amirene.github.io/weatherdashboard/)
+![Deployed Link](https://amirene.github.io/weatherdashboard/)
 
