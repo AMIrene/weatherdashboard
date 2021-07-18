@@ -39,3 +39,9 @@
 .high-risk{
     background: red;
 }
+
+.searchHistory {
+    background-color: #99BDC0;
+    padding: 5px;
+    border-radius: 5px;
+}
