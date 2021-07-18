@@ -1,4 +1,4 @@
-# 06 Server-Side APIs: Weather Dashboard
+# Server-Side APIs: Weather Dashboard
 
 This weather app was created using HTML, CSS, and Javascript. Layout was designed using the [Bulma](https://bulma.io/) CSS Framework.
 The third-party API [OpenWeather One Call API](https://openweathermap.org/api/one-call-api) was used to retrieve weather data for cities. Local storage was used to store persistent data. 
