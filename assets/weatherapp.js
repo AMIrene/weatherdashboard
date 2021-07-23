@@ -76,6 +76,7 @@ let weather = {
         document.querySelector(".currentWind").innerText = "Wind: " + speed + " KM/H";
         document.querySelector(".currentHumidity").innerText = "Humidity: " + humidity + "%";
         document.querySelector(".currentUV").innerText = "UV Index: " + uvIndex;
+        document.querySelector(".box.current-box").classList.remove('hide');
 
 
     },
@@ -86,7 +87,8 @@ let weather = {
 
             return "http://openweathermap.org/img/wn/" + iconCode + "@2x.png";
         }
-
+        //clear previous history
+        fiveDayForecastColumns.textContent = "";
 
 
         for (let index = 0; index < forecasts.length; index++) {

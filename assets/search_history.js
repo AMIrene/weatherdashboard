@@ -20,6 +20,18 @@ if (newCitiesSearched) {
         createList.setAttribute("class", "has-text-centered");
         createList.textContent = newCitiesSearched[i].cityInput;
         CitySearchList.appendChild(createList);
+        //add eventlistener to the li element
+
+        createList.addEventListener('click', function (event) {
+            event.preventDefault();
+            //get the city 
+            const city = createList.textContent;
+            //call the fetch weather function
+            weather.fetchWeather(city);
+        })
     }
+
 }
+
+
 
